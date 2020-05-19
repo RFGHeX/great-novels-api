@@ -47,7 +47,7 @@ foreign key(genreId) REFERENCES genres(id),
 foreign key(novelId) REFERENCES novels(id)
 );
 
-insert into authors (firstName, lastName) values ('Braum', 'Stoker');
+insert into authors (firstName, lastName) values ('Bram', 'Stoker');
 insert into authors (firstName, lastName) values ('Oscar', 'Wilde');
 insert into authors (firstName, lastName) values ('Alice', 'Walker');
 insert into authors (firstName, lastName) values ('leo', 'Tolstoy');
